@@ -1,5 +1,6 @@
 # getDataFromWeb
-web からのデータ取得についてまとめています。
+web からのデータ取得についてまとめています。<br>
+[まとめへ](https://github.com/1g-hub/getDataFromWeb/blob/main/getDataFromWeb.ipynb)
 
 ## 環境
 ライブラリのインストール<br>
@@ -9,7 +10,7 @@ web からのデータ取得についてまとめています。
 
 
 ## ファイルについて
-getDataFromWeb.ipynb  まとめ (GoogleColab)<br>
+getDataFromWeb.ipynb  [まとめ (GoogleColab)](https://github.com/1g-hub/getDataFromWeb/blob/main/getDataFromWeb.ipynb)<br>
 requirements.tex  ライブラリ インストール用<br>
 getData.py  GoogleColab ファイルからデータ取得に不要なコードを除いたもの<br>
 datasetSample.csv  データセットのサンプル<br>
