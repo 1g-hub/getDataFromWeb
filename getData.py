@@ -16,7 +16,7 @@ warnings.simplefilter("ignore")
 url = "https://gatherer.wizards.com/Pages/Search/Default.aspx?page=0&set=[%22Adventures+in+the+Forgotten+Realms%22]&sort=cn+"
 
 # [必須]サーバー負荷対策
-sleep(1)
+sleep(2)
 # ページ情報の取得
 response=req.get(url, verify=False)
 response.encoding=response.apparent_encoding
@@ -49,7 +49,7 @@ for unique in tqdm(uniques):
     url = s + unique[0]
 
     # 　[必須]サーバー負荷対策
-    sleep(1)
+    sleep(2)
     # ページ情報の取得
     response = req.get(url, verify=False)
     response.encoding = response.apparent_encoding
